@@ -1,0 +1,49 @@
+.logo{
+    font-family: 'Acme', sans-serif;
+    color: #00d1b2;
+    font-size: 26px;
+}
+.logo-span{
+    color: #676767;
+}
+#item-menu{
+    font-family: 'Acme', sans-serif;
+    color: #676767;
+}
+#item-menu:hover{
+    color: #00d1b2;
+}
+.navbar{
+    height: 60px;
+}
+.image{
+    margin: auto;
+    display: block;
+}
+.conteudo{
+    margin-bottom: 30px;
+}
+#icone{
+    color: #363636;
+}
+.icone-espacamento{
+    margin-right: 8px;
+}
+#espacamento-bottom{
+    margin-bottom: 4px;
+}
+.img-experiencia{
+    max-width: 140px;
+    margin: auto;
+    display: block;
+}
+.conteudo-rodape p{
+    display: inline;
+    margin-right: 20px;
+}
+.conteudo-rodape a{
+    display: inline;
+}
+.footer{
+    padding: 30px 0;
+}

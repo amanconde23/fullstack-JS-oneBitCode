@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação Form no Front</title>
+</head>
+<body>
+    <h3>Encontre no Google</h3>
+    <form action="https://www.google.com/search" method="GET">
+        <label for="query">O que deseja pesquisar?</label>
+        <input type="text" id="query" placeholder="digite sua busca" name="q" required>
+        <!-- caso queira validar email -->
+        <!-- name="q" envia email tb na url -->
+        <input type="email" id="email" placeholder="digite seu email" name="q" required>
+        <input type="number" id="numero" placeholder="digite numero" min="10" max="15" required>
+        <input type="submit" value="Pesquisar">
+    </form>
+</body>
+</html>

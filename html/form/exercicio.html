@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro da Liga dos Astronautas</title>
+</head>
+<body>
+    <h1>Cadastro da Liga dos Astronautas</h1>
+    <form action="/" method="POST">
+        <label for="nome">Nome:</label><input type="text" name="nome" id="nome"><br><br>
+        <label for="email">Email:</label><input type="email" name="email" id="email"> 
+            - <label for="senha">Senha:</label><input type="password" name="senha" id="senha"><br><br>
+        <label for="nascimento">Data de Nascimento:</label><input type="date" name="nascimento" id="nascimento">
+            - <label for="foto">Foto:</label><input type="file" name="foto" id="foto"><br><br>
+        <label for="nacionalidade">Nacionalidade:</label>
+            <select name="nacionalidade" id="nacionalidade">
+                <option value="brasileiro">Brasileiro</option>
+                <option value="russo">Russo</option>
+                <option value="americano">Americano</option>
+                <option value="frances">Francês</option>
+            </select>
+                - <label for="genero">Gênero:</label><input type="radio" name="genero" id="feminino" value="feminino"><label for="feminino">F</label>
+                    <input type="radio" name="masculino" id="masculino" value="genero"><label for="masculino">M</label><br><br>
+        <label for="qualidades">Suas Principais Qualidades:</label><br>
+            <label for="inteligencia">Inteligência</label><input type="checkbox" name="inteligencia" id="inteligencia" value="inteligencia"> |
+            <label for="resiliencia">Resiliência</label><input type="checkbox" name="resiliencia" id="resiliencia" value="resiliencia"> |
+            <label for="fisico">Preparo Físico</label><input type="checkbox" name="fisico" id="fisico" value="preparo fisico"> |
+            <label for="educacao">Educação</label><input type="checkbox" name="educacao" id="educacao" value="educacao"><br><br>
+        <textarea name="justificativa" id="justificativa" cols="30" rows="10" placeholder="Porque você gostaria de ser um astronauta?"></textarea><br>
+        <input type="submit" value="Criar">
+    </form>
+</body>
+</html>

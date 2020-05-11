@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa Google</title>
+</head>
+<body>
+    <h3>Encontre no Google</h3>
+    <!-- action é a url que vai ser enviada o form -->
+    <!-- get recebe dados -->
+    <form action="https://www.google.com/search" method="GET">
+        <!-- for ao clicar no texto já seleciona seu input equivalente -->
+        <label for="query">O que deseja pesquisar?</label>
+        <!-- name determina que esse input irá enviar como parametro q na url o valor digitado -->
+        <!-- se usuario digitar arroz, resultado: https://www.google.com/search?q=arroz -->
+        <input type="text" id="query" placeholder="digite sua busca" name="q">
+        <input type="submit" value="Pesquisar">
+    </form>
+</body>
+</html>
